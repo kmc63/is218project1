@@ -28,7 +28,13 @@
             <div class="row" style="...">
                 <div class="col-6">
                     <h1>Docker In The Terminal</h1>
-                    <p></p>
+                    <p>In order to start this project you will need to go to the directory in a terminal that contains
+                    your docker-compose.yml script. Once you are in this directory you need to type docker-compose up
+                    and this will start the project. Now to access the container that is running you will want to use
+                    the command docker ps to get a list of running containers. You will now have the container ID for
+                     the container you want to gain access to. Then you will use the docker command "docker exec -it
+                    containerID /bin/bash" which will give a bash terminal to access the internals of the docker
+                        container. </p>
                 </div>
                 <div class="col-5">
                     <img src="../static/images/dockerIMG2.png" style="max-width: 123%" >
@@ -49,13 +55,10 @@
                         <li>"docker rm": This command along withe container ID will delete a stopped docker container.</li>
                         <li>"docker rmi": This command along with image ID will delete the image from your local storage.</li>
                     </ul>
-
+                </div>
+                <div class="col-5">
+                    <a href="https://hub.docker.com/repository/docker/keithcicala123/is218project1">Docker Hub Link</a>
                 </div>
             </div>
-
-            <div>
-                <a href="https://hub.docker.com/repository/docker/keithcicala123/is218project1">Docker Hub Link</a>
-            </div>
-
         </div>
 {% endblock %}
