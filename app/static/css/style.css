@@ -26,6 +26,16 @@ h1 {
     margin-bottom: 3px;
 }
 
+.col-7
+{
+    border-right: solid #d7d9db;
+    border-bottom: solid #d7d9db;
+    border-top: solid #d7d9db;
+    border-left: solid #d7d9db;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+
 .col-6
 {
     border-right: solid #d7d9db;
@@ -37,6 +47,16 @@ h1 {
 }
 
 .col-4
+{
+    border-right: solid #d7d9db;
+    border-bottom: solid #d7d9db;
+    border-top: solid #d7d9db;
+    border-left: solid #d7d9db;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+
+.col-3
 {
     border-right: solid #d7d9db;
     border-bottom: solid #d7d9db;
