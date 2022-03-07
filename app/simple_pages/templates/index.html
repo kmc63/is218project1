@@ -9,28 +9,28 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="5000">
-        <a href="{{ url_for('simple_pages.show', page="git")}}"><img src="../static/images/GitHub-logo.png" class="d-block w-100" alt="..."></a>
+        <a href="{{ url_for('simple_pages.show', page="git")}}"><img src="../static/images/git.png" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h2>Git</h2>
         <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="5000">
-        <a href="{{ url_for('simple_pages.show', page="docker")}}"><img src="../static/images/homepage-docker-logo.png" class="d-block w-100" alt="..."></a>
+        <a href="{{ url_for('simple_pages.show', page="docker")}}"><img src="../static/images/docker.png" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h2>Docker</h2>
         <p>Docker is an open platform for developing, shipping, and running applications that is available on multiple operating systems.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="5000">
-        <a href="{{ url_for('simple_pages.show', page="pythonFlask")}}"><img src="../static/images/pythonFlask.png" class="d-block w-100" alt="..."></a>
+        <a href="{{ url_for('simple_pages.show', page="pythonFlask")}}"><img src="../static/images/pythonFlask.jpg" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h2>Python/Flask</h2>
         <p>Flask is a web framework, it’s a Python module that lets you develop web applications easily.</p>
       </div>
     </div>
        <div class="carousel-item" data-bs-interval="5000">
-           <a href="{{ url_for('simple_pages.show', page="cicd")}}"><img src="../static/images/cicd.png" class="d-block w-100" alt="..."></a>
+           <a href="{{ url_for('simple_pages.show', page="cicd")}}"><img src="../static/images/cicd.jpg" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h2>CI/CD</h2>
         <p>CI and CD stand for continuous integration and continuous delivery/continuous deployment.</p>
@@ -46,9 +46,11 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <div id="aboutMe">
-        <h1>About Me</h1>
-        <p>Hello, my name is Keith Cicala!
+        <div class="container-lg">
+            <div class="row" style="...">
+                <div class="col-6" style="border-right: solid #d7d9db;padding: 20px">
+                    <h1>About Me</h1>
+                    <p>Hello, my name is Keith Cicala!
 
 I was born in Brick, NJ and I have been living in the same house ever since. I am a commute 3-4 times a week to NJIT.
 
@@ -56,6 +58,12 @@ I am currently in NJIT's accelerated BS/MS program and I will have my Bachelor's
 
 I like to play video games in my free time which is usually at night and I like to play games like Valorant or strategy games. I have also been getting more active lately, so I've been going to the gym each week now and I have been going rock climbing which is a blast highly recommend trying it out.
 
-        </p>
-    </div>
+                    </p>
+                </div>
+                <div class="col-6" style="...">
+                    <h1>Hello there</h1>
+                </div>
+            </div>
+
+        </div>
 {% endblock %}
