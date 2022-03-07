@@ -1,8 +1,18 @@
-body {
+body
+{
 font-size: 135%;
 }
 
-h1 {
+a
+{
+    color: darkslategrey;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+h1
+{
  background-color: lightgray;
 }
 
