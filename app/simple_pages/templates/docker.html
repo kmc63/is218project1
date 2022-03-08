@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container-lg">
+            <div class="row">
+                <img src="../static/images/dockerIMG1.png" style="..." class="center">
+            </div>
             <div class="row" style="...">
                 <div class="col-6" style="...">
                     <h1>Images</h1>
@@ -43,16 +46,18 @@
                 <div class="col-7" style="...">
                     <h1>Docker Commands</h1>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>"docker -version": This command can be used to get the current installation version of docker.</li>
+                        <li>"docker pull": This command can be used to pull docker images from a DockerHub repository.</li>
+                        <li>"docker run": This command is used to create a docker container from a specific docker image.</li>
+                        <li>"docker ps": This command is used for listing all running docker containers.</li>
+                        <li>"docker exec": This command can be used to get direct access to a running docker container.</li>
+                        <li>"docker stop": This command is used to stop a specific running docker container.</li>
+                        <li>"docker kill": This command is usually only used when a container is not responding since
+                        this will stop the container's execution immediately.</li>
+                        <li>"docker push": This command can be used to push a docker image in your local repository to DockerHub.</li>
+                        <li>"docker images": This command will display all docker images in your local repository.</li>
+                        <li>"docker rm": This command is used to permanently delete a stopped docker container.</li>
+                        <li>"docker rmi": This command is used to permanently delete a docker image from your local repository.</li>
                     </ul>
                 </div>
                 <div class="col-5" style="...">
