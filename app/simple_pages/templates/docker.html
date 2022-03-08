@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container-lg">
-            <div class="row">
-                <img src="../static/images/dockerIMG1.png" class="center" >
-            </div>
             <div class="row" style="...">
                 <div class="col-6" style="border-right: solid #d7d9db;padding: 20px;border-bottom: solid #d7d9db">
                     <h1>Images</h1>
@@ -25,39 +22,18 @@
                 </div>
             </div>
 
-            <div class="row" style="...">
-                <div class="col-6">
-                    <h1>Docker In The Terminal</h1>
-                    <p>In order to start this project you will need to go to the directory in a terminal that contains
-                    your docker-compose.yml script. Once you are in this directory you need to type docker-compose up
-                    and this will start the project. Now to access the container that is running you will want to use
-                    the command docker ps to get a list of running containers. You will now have the container ID for
-                     the container you want to gain access to. Then you will use the docker command "docker exec -it
-                    containerID /bin/bash" which will give a bash terminal to access the internals of the docker
-                        container. </p>
-                </div>
-                <div class="col-5">
-                    <img src="../static/images/dockerIMG2.png" style="max-width: 123%" >
-                </div>
+            <div>
+                <a href="https://hub.docker.com/repository/docker/keithcicala123/is218project1">Docker Hub Link</a>
             </div>
 
             <div class="row" style="...">
-                <div class="col-6" style="...">
-                    <h1>Docker Commands</h1>
-                    <ul>
-                        <li>"docker -version": This command will get the current installation version of docker.</li>
-                        <li>"docker pull": This command is used to pull docker images from a dockerhub repository.</li>
-                        <li>"docker run": This command is used to run a docker image that you specify as an option.</li>
-                        <li>"docker ps": This command will list all running docker containers with their container ID.</li>
-                        <li>"docker exec": This command will allow you to enter a running docker container to access it files.</li>
-                        <li>"docker kill": This command along with container ID will stop the docker container that has the matching container ID.</li>
-                        <li>"docker images": This command will list all docker images stored on your system.</li>
-                        <li>"docker rm": This command along withe container ID will delete a stopped docker container.</li>
-                        <li>"docker rmi": This command along with image ID will delete the image from your local storage.</li>
-                    </ul>
+                <div class="col-8" style="border-right: solid #d7d9db;padding: 20px;border-bottom: solid #d7d9db">
+                    <h1>Docker In The Terminal</h1>
+                    <p></p>
                 </div>
-                <div class="col-5">
-                    <a href="https://hub.docker.com/repository/docker/keithcicala123/is218project1">Docker Hub Link</a>
+                <div class="col-4" style="...">
+                    <h1>Docker Commands</h1>
+                    <p></p>
                 </div>
             </div>
         </div>
