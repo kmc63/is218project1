@@ -2,7 +2,7 @@
 {% block content %}
     <div class="container-lg">
             <div class="row" style="...">
-                <div class="col-8" style="...">
+                <div class="col-7" style="...">
                     <h1>GitHub Actions</h1>
                     <p>My project is using GitHub actions to test my changes,
                        upload my docker container to DockerHub, and send my
@@ -13,7 +13,7 @@
                         Finally, my app will be uploaded to Heroku using the Heroku API
                         where the app will be pushed into a production environment.</p>
                 </div>
-                <div class="col-4" style="...">
+                <div class="col-5" style="border-right: solid #d7d9db; border-bottom: solid #d7d9db; border-top: solid #d7d9db; border-left: solid #d7d9db; padding: 20px;margin-bottom: 3px">
                     <h1>Review Code before Merging</h1>
                     <p>I am able to use my local docker container as a development server
                         to review my code. The docker container is instantly updating the
@@ -23,21 +23,31 @@
                 </div>
             </div>
             <div class="row" style="...">
-                <div class="col-8" style="...">
-                    <h1>Deploying Master to Production</h1>
-                    <p></p>
-                </div>
-                <div class="col-4" style="...">
-                    <h1>Deploy an Image to Dockerhub</h1>
-                    <p></p>
+                <div class="col-7" style="...">
+                    <h1>Review Code Before Merging/Deploying Master to Production/Deploy Docker Image to DockerHub</h1>
+                    <ol>
+                        <li>
+                            I am able to use my local docker container as a development server
+                        to review my code. The docker container is instantly updating the
+                        changes I make when I save the files I am working on. This allows
+                        me to see my changes in real-time to verify my changes worked properly
+                        before I merge pull requests.
+                        </li>
+                        <li>
+                            I am using Heroku as my production server and my code is deployed to
+                        Heroku if the test with GitHub Actions is successful. This will only
+                        happen if the GitHub action is successful otherwise the test will fail
+                        and nothing will be uploaded to the production server.
+                        </li>
+                        <li>
+                            I am able to deploy my project's docker image to DockerHub by using
+                            GitHub Actions. The docker image is created into a container by GitHub
+                            actions because GitHub actions is trying to verify that the container
+                            has no issues being built. Once the GitHub action is successful it will
+                            upload the docker image to DockerHub.
+                        </li>
+                    </ol>
                 </div>
             </div>
-            <div class="row" style="...">
-                <div class="col-8" style="...">
-                    <h1>Repositories</h1>
-                    <p></p>
-                </div>
-            </div>
-
         </div>
 {% endblock %}
