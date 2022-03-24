@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container-lg">
-            <div class="row" style="...">
-                <div class="col-6" style="...">
-                    <h1>Testing with Pytest</h1>
-                    <p>Testing your code in general before uploading to Github is
+        <div class="row" style="...">
+            <div class="col-6" style="...">
+                <h1>Testing with Pytest</h1>
+                <p>Testing your code in general before uploading to Github is
                     good practice and can bring many benefits. The main point is of
                     testing your code is that it gives you confidence that the
                     changes you made are working properly. Writing and maintaining
@@ -12,175 +12,192 @@
                     have an easier time. I did not code much in python but I was
                     able to use pytest to make sure my homepage and content pages
                     worked properly.</p>
-                </div>
-                <div class="col-6" style="...">
-                    <h1>Simple Pages and Testing</h1>
-                    <p>I created five simple pages to produce content for my web page.
+            </div>
+            <div class="col-6" style="...">
+                <h1>Simple Pages and Testing</h1>
+                <p>I created five simple pages to produce content for my web page.
                     I used the same template for most of my content pages by using
                     rows and columns to evenly divide up the html pages. Then I used
                     headers, paragraphs, images, and unordered lists to fill in the
                     content on my pages. I tested my simple pages by using pytest to
                     check if the page returns a 200 server message. If it returns a
                     200 server message that means the simple page didn't have any errors.</p>
-                </div>
             </div>
-            <div class="row" style="...">
-                <div class="col-7" style="...">
-                    <h1>GitHub and Flask Links</h1>
-                    <ul>
-                        <li><a href="https://github.com/kmc63/is218project1">GitHub Link</a></li>
-                        <li><a href="https://flask.palletsprojects.com/en/2.0.x/blueprints/">Flask Blueprint Documentation</a></li>
-                        <li><a href="https://flask.palletsprojects.com/en/2.0.x/testing/">Flask Testing with PyTest</a></li>
-                    </ul>
-                </div>
-                <div class="col-5" style="...">
-                    <ul>
-                        <img src="../static/images/pythonFlaskIMG1.png" style="max-width: 100%" >
-                    </ul>
-                </div>
-            </div>
-            <div class="row" style="...">
-                <div class="col-7" style="...">
-                    <h1>Directories and Files</h1>
-                    <ul>
-                        <li>Root Directory - docker_flask_is218
-                            <ul>
-                                <li>Sub Directory - .github
-                                    <ul>
-                                        <li>Sub Directory - workflows
-                                            <ul>
-                                                <li>File - dev.yml</li>
-                                                <li>File - heroku_awake_dev.yml</li>
-                                                <li>File - heroku_awake_prod.yml</li>
-                                                <li>File - prod.yml</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>Sub Directory - app
-                                    <ul>
-                                        <li>Sub Directory - context_processors
-                                            <ul>
-                                                <li>File - __init__.py</li>
-                                            </ul>
-                                        </li>
-                                        <li>Sub Directory - simple_pages
-                                            <ul>
-                                                <li>Sub Directory - templates
-                                                    <ul>
-                                                        <li>File - cicd.html</li>
-                                                        <li>File - docker.html</li>
-                                                        <li>File - git.html</li>
-                                                        <li>File - index.html</li>
-                                                        <li>File - pythonFlask</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>Sub Directory - static
-                                            <ul>
-                                                <li>Sub Directory - css
-                                                    <ul>
-                                                        <li>File - style.css</li>
-                                                    </ul>
-                                                </li>
-                                                <li>Sub Directory - images
-                                                    <ul>
-                                                        <li>File - cicd.jpg</li>
-                                                        <li>File - docker.png</li>
-                                                        <li>File - dockerIMG1.png</li>
-                                                        <li>File - dockerIMG2.png</li>
-                                                        <li>File - git.png</li>
-                                                        <li>File - gitIMG1.png</li>
-                                                        <li>File - gitIMG2.png</li>
-                                                        <li>File - pictureOfMe.jpg</li>
-                                                        <li>File - pythonFlask.jpg</li>
-                                                        <li>File - pythonFlaskIMG1.png</li>
-                                                        <li>File - sample.jpeg</li>
-                                                    </ul>
-                                                </li>
-                                                <li>Sub Directory - js
-                                                    <ul>
-                                                        <li>File - script.js</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        <li>Sub Directory - templates
-                                            <ul>
-                                                <li>File - base.html</li>
-                                            </ul>
-                                        </li>
-                                        <li>File - __init__.py</li>
-                                        <li>File - run.py</li>
-                                    </ul>
-                                </li>
-                                <li>Sub Directory - calculator
-                                    <ul>
-                                        <li>File - __init__.py</li>
-                                    </ul>
-                                </li>
-                                <li>Sub Directory - tests
-                                    <ul>
-                                        <li>File - __init__.py</li>
-                                        <li>File - calculator_test.py</li>
-                                        <li>File - conftest.py</li>
-                                        <li>File - context_process_test.py</li>
-                                        <li>File - simple_pages_test.py</li>
-                                    </ul>
-                                </li>
-                                <li>File - docker-compose.yml</li>
-                                <li>File - Dockerfile</li>
-                                <li>File - heroku.yml</li>
-                                <li>File - pytest.ini</li>
-                                <li>File - readme.md</li>
-                                <li>File - requirements.txt</li>
-                                <li>File - setup.py</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-5" style="border-right: solid #d7d9db; border-bottom: solid #d7d9db; border-top: solid #d7d9db; border-left: solid #d7d9db; padding: 20px;margin-bottom: 3px">
-                    <h1>Important Files</h1>
-                    <ul>
-                        <li>dev.yml: This file will create the environment that will run pytest
-                            and then pushes the build to the development heroku app.</li>
-                        <li>prod.yml: This file will create the environment that will run pytest,
-                            then push the docker file to dockerhub, and then pushes the build to
-                            the production heroku app</li>
-                        <li>cicd.html: This file is used to create my electronic document to
-                            display my continuous integration and continuous development page
-                            to the internet.</li>
-                        <li>docker.html: This file is used to create my electronic document to
-                            display my docker page to the internet.</li>
-                        <li>git.html: This file is used to create my electronic document to
-                            display my git page to the internet.</li>
-                        <li>index.html: This file is used to create my electronic document to
-                            display my index page to the internet.</li>
-                        <li>pythonFlask.html: This file is used to create my electronic document to
-                            display my python/flask page to the internet.</li>
-                        <li>style.css: This file is used to apply styles to my web pages.</li>
-                        <li>base.html: This file is used as a base html for my web pages by
-                            providing a html page to build off that helps constantly used
-                            elements.</li>
-                        <li>run.py: This file allows for Gunicorn to serve the app in the heroku
-                            production environment.</li>
-                        <li>simple_pages_test.py: This file is used to test the simple html pages
-                            I made. It is testing for a server message 200 to confirm the html is
-                            error free.</li>
-                        <li>docker-compose.yml: This is an orchestration file that is used to
-                            create a docker container that lets you see local development in
-                            real-time.</li>
-                        <li>Dockerfile: This file is used to create a docker image then the image
-                            can create a docker container.</li>
-                        <li>heroku.yml: This is a configuration file to get the requirements to
-                            use heroku ready.</li>
-                        <li>pytest.ini: This is a configuration file to get pytest running
-                            properly in the environment.</li>
-                        <li>setup.py: This is a python script that is making sure the
-                            required packages are installed when the app starts.</li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
+        <div class="row" style="...">
+            <div class="col-7" style="...">
+                <h1>GitHub and Flask Links</h1>
+                <ul>
+                    <li><a href="https://github.com/kmc63/is218project1">GitHub Link</a></li>
+                    <li><a href="https://flask.palletsprojects.com/en/2.0.x/blueprints/">Flask Blueprint
+                        Documentation</a></li>
+                    <li><a href="https://flask.palletsprojects.com/en/2.0.x/testing/">Flask Testing with PyTest</a></li>
+                </ul>
+            </div>
+            <div class="col-5" style="...">
+                <ul>
+                    <img src="../static/images/pythonFlaskIMG1.png" style="max-width: 100%">
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="...">
+            <div class="col-7" style="...">
+                <h1>Directories and Files</h1>
+                <ul>
+                    <li>Root Directory - docker_flask_is218
+                        <ul>
+                            <li>Sub Directory - .github
+                                <ul>
+                                    <li>Sub Directory - workflows
+                                        <ul>
+                                            <li>File - dev.yml</li>
+                                            <li>File - heroku_awake_dev.yml</li>
+                                            <li>File - heroku_awake_prod.yml</li>
+                                            <li>File - prod.yml</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Sub Directory - app
+                                <ul>
+                                    <li>Sub Directory - context_processors
+                                        <ul>
+                                            <li>File - __init__.py</li>
+                                        </ul>
+                                    </li>
+                                    <li>Sub Directory - simple_pages
+                                        <ul>
+                                            <li>Sub Directory - templates
+                                                <ul>
+                                                    <li>File - cicd.html</li>
+                                                    <li>File - docker.html</li>
+                                                    <li>File - git.html</li>
+                                                    <li>File - index.html</li>
+                                                    <li>File - pythonFlask</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Sub Directory - static
+                                        <ul>
+                                            <li>Sub Directory - css
+                                                <ul>
+                                                    <li>File - style.css</li>
+                                                </ul>
+                                            </li>
+                                            <li>Sub Directory - images
+                                                <ul>
+                                                    <li>File - cicd.jpg</li>
+                                                    <li>File - docker.png</li>
+                                                    <li>File - dockerIMG1.png</li>
+                                                    <li>File - dockerIMG2.png</li>
+                                                    <li>File - git.png</li>
+                                                    <li>File - gitIMG1.png</li>
+                                                    <li>File - gitIMG2.png</li>
+                                                    <li>File - pictureOfMe.jpg</li>
+                                                    <li>File - pythonFlask.jpg</li>
+                                                    <li>File - pythonFlaskIMG1.png</li>
+                                                    <li>File - sample.jpeg</li>
+                                                </ul>
+                                            </li>
+                                            <li>Sub Directory - js
+                                                <ul>
+                                                    <li>File - script.js</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    <li>Sub Directory - templates
+                                        <ul>
+                                            <li>File - base.html</li>
+                                        </ul>
+                                    </li>
+                                    <li>File - __init__.py</li>
+                                    <li>File - run.py</li>
+                                </ul>
+                            </li>
+                            <li>Sub Directory - calculator
+                                <ul>
+                                    <li>File - __init__.py</li>
+                                </ul>
+                            </li>
+                            <li>Sub Directory - tests
+                                <ul>
+                                    <li>File - __init__.py</li>
+                                    <li>File - calculator_test.py</li>
+                                    <li>File - conftest.py</li>
+                                    <li>File - context_process_test.py</li>
+                                    <li>File - simple_pages_test.py</li>
+                                </ul>
+                            </li>
+                            <li>File - docker-compose.yml</li>
+                            <li>File - Dockerfile</li>
+                            <li>File - heroku.yml</li>
+                            <li>File - pytest.ini</li>
+                            <li>File - readme.md</li>
+                            <li>File - requirements.txt</li>
+                            <li>File - setup.py</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-5"
+                 style="border-right: solid #d7d9db; border-bottom: solid #d7d9db; border-top: solid #d7d9db; border-left: solid #d7d9db; padding: 20px;margin-bottom: 3px">
+                <h1>Important Files</h1>
+                <ul>
+                    <li>dev.yml: This file will create the environment that will run pytest
+                        and then pushes the build to the development heroku app.
+                    </li>
+                    <li>prod.yml: This file will create the environment that will run pytest,
+                        then push the docker file to dockerhub, and then pushes the build to
+                        the production heroku app
+                    </li>
+                    <li>cicd.html: This file is used to create my electronic document to
+                        display my continuous integration and continuous development page
+                        to the internet.
+                    </li>
+                    <li>docker.html: This file is used to create my electronic document to
+                        display my docker page to the internet.
+                    </li>
+                    <li>git.html: This file is used to create my electronic document to
+                        display my git page to the internet.
+                    </li>
+                    <li>index.html: This file is used to create my electronic document to
+                        display my index page to the internet.
+                    </li>
+                    <li>pythonFlask.html: This file is used to create my electronic document to
+                        display my python/flask page to the internet.
+                    </li>
+                    <li>style.css: This file is used to apply styles to my web pages.</li>
+                    <li>base.html: This file is used as a base html for my web pages by
+                        providing a html page to build off that helps constantly used
+                        elements.
+                    </li>
+                    <li>run.py: This file allows for Gunicorn to serve the app in the heroku
+                        production environment.
+                    </li>
+                    <li>simple_pages_test.py: This file is used to test the simple html pages
+                        I made. It is testing for a server message 200 to confirm the html is
+                        error free.
+                    </li>
+                    <li>docker-compose.yml: This is an orchestration file that is used to
+                        create a docker container that lets you see local development in
+                        real-time.
+                    </li>
+                    <li>Dockerfile: This file is used to create a docker image then the image
+                        can create a docker container.
+                    </li>
+                    <li>heroku.yml: This is a configuration file to get the requirements to
+                        use heroku ready.
+                    </li>
+                    <li>pytest.ini: This is a configuration file to get pytest running
+                        properly in the environment.
+                    </li>
+                    <li>setup.py: This is a python script that is making sure the
+                        required packages are installed when the app starts.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 {% endblock %}
