@@ -25,21 +25,39 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
+                                <a class="nav-link active" aria-current="page"
+                                   href="{{ url_for('simple_pages.show', page="index") }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="git")}}">Git</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="git") }}">Git</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="docker")}}">Docker</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="docker") }}">Docker</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="pythonFlask")}}">Python/Flask</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="pythonFlask") }}">Python/Flask</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="cicd")}}">CI/CD</a>
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="cicd") }}">CI/CD</a>
                             </li>
                         </ul>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Articles
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark"
+                                        aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Pylint and Others</a></li>
+                                        <li><a class="dropdown-item" href="#">AAA Testing</a></li>
+                                        <li><a class="dropdown-item" href="#">OOPS</a></li>
+                                        <li><a class="dropdown-item" href="#">SOLID</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
