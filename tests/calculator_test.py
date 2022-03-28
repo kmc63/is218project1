@@ -14,7 +14,7 @@ def test_calculator_add_method():
     # this is show using the calculator object add method
 
     ## Act for AAA testing
-    result = Add.add(int(tuple_list(0)), int(tuple_list(1)))
+    result = Add.add(tuple_list()[0], tuple_list()[1])
 
     ## Assertion for AAA testing
     assert result == 3
@@ -22,14 +22,14 @@ def test_calculator_add_method():
 
 def test_calculator_subtract_method():
     """Testing the Calculator Subtract"""
-    assert Sub.subtract(int(tuple_list(0)), int(tuple_list(1))) == -1
+    assert Sub.subtract(tuple_list()[0], tuple_list()[1]) == -1
 
 
 def test_calculator_multiply_method():
     """Testing the Calculator Subtract"""
-    assert Mult.multiply(int(tuple_list(0)), int(tuple_list(1))) == 2
+    assert Mult.multiply(tuple_list()[0], tuple_list()[1]) == 2
 
 
 def test_calculator_division_method():
     """Testing the Calculator Subtract"""
-    assert Div.divide(int(tuple_list(0)), int(tuple_list(1))) == 0.5
+    assert Div.divide(tuple_list()[0], tuple_list()[1]) == 0.5
