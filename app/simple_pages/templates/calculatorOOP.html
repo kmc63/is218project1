@@ -1,10 +1,33 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container-lg">
+        <h1>Calculator Program Demonstrating OOP</h1>
         <div class="row" style="...">
-            <div class="col-6" style="...">
-                <h1>Calculator Program Demonstrating OOP</h1>
-                <p></p>
+            <div class="col-10" style="...">
+                <h1>Encapsulation</h1>
+                <p>Encapsulation is when objects keep their states private
+                    and other objects don't have direct access. Other objects must call
+                    the public functions of these objects to manipulate its values.</p>
+                <p>An easy to understand example of encapsulation is to think of a cat
+                    as an object. This cat object has its own private values of mood, hungry,
+                    and energy with a method meow. Since they're private values no other
+                    method can directly change them but instead can use the cat class'
+                    public methods to manipulate the object. The cat class has three
+                    methods sleep, play, and feed. These methods all have a way to
+                    change the original values in the cat object. Which is the main
+                    purpose of encapsulation by keeping its value private but allowing
+                    the values to be manipulated by its public methods.</p>
+                <img src="../static/images/encapCat.png" style="max-width: 100%">
+                <p>The calculator program uses encapsulation in most of its classes to
+                    make sure no object can directly access another object. It achieves
+                    this by allowing objects to manipulate other objects by using the
+                    method of that particular object. For example, an object of the
+                    addition class can only be used if the object calling on the addition
+                    class uses the add method. When this happens the add method will take
+                    the parameters in and calculate the problem then it will return
+                    the value of adding two numbers.</p>
+                <img src="../static/images/encapCalc.png" style="max-width: 100%">
+                <p>Reference Page: https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/</p>
             </div>
         </div>
     </div>
