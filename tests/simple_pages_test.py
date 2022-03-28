@@ -11,7 +11,7 @@ def test_request_main_menu_links(client):
     assert b'<a class="nav-link" href="/pythonFlask">Python/Flask</a>' in response.data
     assert b'<a class="dropdown-item" href="/solid">SOLID</a>' in response.data
     assert b'<a class="dropdown-item" href="/aaaTesting">AAA Testing</a>' in response.data
-    assert b'<a class="dropdown-item" href="/oops">OOPS</a>' in response.data
+    assert b'<a class="dropdown-item" href="/calculatorOOP">OOP</a>' in response.data
     assert b'<a class="dropdown-item" href="/pylintAndOthers">Pylint and Others</a>' in response.data
     assert b'<a class="dropdown-item" href="/glossary">Glossary</a>' in response.data
 
