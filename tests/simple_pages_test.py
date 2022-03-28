@@ -13,6 +13,7 @@ def test_request_main_menu_links(client):
     assert b'<a class="dropdown-item" href="/aaaTesting">AAA Testing</a>' in response.data
     assert b'<a class="dropdown-item" href="/oops">OOPS</a>' in response.data
     assert b'<a class="dropdown-item" href="/pylintAndOthers">Pylint and Others</a>' in response.data
+    assert b'<a class="dropdown-item" href="/glossary">Glossary</a>' in response.data
 
 
 def test_request_index(client):
@@ -52,9 +53,9 @@ def test_request_git(client):
 
 def test_request_oop(client):
     """This makes the index page"""
-    response = client.get("/oops")
+    response = client.get("/calculatorOOP")
     assert response.status_code == 200
-    assert b"OOPS" in response.data
+    assert b"OOP" in response.data
 
 
 def test_request_pylint(client):
@@ -78,4 +79,9 @@ def test_request_solid(client):
     assert b"SOLID" in response.data
 
 
+def test_request_glossary(client):
+    """This makes the index page"""
+    response = client.get("/glossary")
+    assert response.status_code == 200
+    assert b"Glossary" in response.data
 
