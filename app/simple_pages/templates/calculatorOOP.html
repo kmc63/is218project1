@@ -3,7 +3,7 @@
     <div class="container-lg">
         <h1>Calculator Program Demonstrating OOP</h1>
         <div class="row" style="...">
-            <div class="col-10" style="...">
+            <div class="col-12" style="...">
                 <h1>Encapsulation</h1>
                 <p>Encapsulation is when objects keep their states private
                     and other objects don't have direct access. Other objects must call
@@ -27,7 +27,55 @@
                     the parameters in and calculate the problem then it will return
                     the value of adding two numbers.</p>
                 <img src="../static/images/encapCalc.png" style="max-width: 100%">
-                <p>Reference Page: https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/</p>
+                <p></p>
+                <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/">Reference Page</a>
+                <p></p>
+
+                <h1>Abstraction</h1>
+                <p>Abstraction is when each object only exposes a high level
+                    mechanism for using it, this mechanism should only reveal operations
+                    relevant to other objects.</p>
+                <p>An example of abstraction in the real world is the use of your cell
+                    phone. You just need to understand what the buttons do on your phone,
+                    but you don't need to know the internal details of how the phone
+                    processes the button click. As the user of the phone you just need
+                    to know that when you press the lock button the phone will lock, and
+                    you don't need to know anything else.
+                    </p>
+                <img src="../static/images/abstrPho.png" style="max-width: 100%">
+                <p>The calculator program uses abstraction when the calculations' python file
+                    imports the operations class. The calculator does this by calling the
+                    class object Add and its method add to calculate a value. the calculation
+                    addition object does not care how the operations object gets its value.
+                    All the addition object cares about is that the operations class object
+                    and method return the correct value.</p>
+                <img src="../static/images/abstrCalc.png" style="max-width: 100%">
+                <p></p>
+                <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/">Reference Page</a>
+                <p></p>
+
+                <h1>Inheritance</h1>
+                <p>Inheritance is when you create a child class by deriving from
+                    another parent class. The child reuses the fields and methods from the
+                    parent. Then this child class can use its own unique fields and methods.</p>
+                <p>An example of inheritance in simple terms, is trying to look at a person class
+                    that has two unique values. Then we have two other class types of teacher and
+                    student which both inherit the unique values from the person class. Although,
+                     the student and teacher classes inherit the person class they will also have
+                    their own unique values and methods. This is the easiest way to understand
+                    inheritance from outside a program.
+                    </p>
+                <img src="../static/images/inheriPer.png" style="max-width: 100%">
+                <p>The calculator program is using inheritance when the calculations file imports
+                    the operations file's classes into its file. Once the classes are imported
+                    the calculations file's own classes will inherit the methods and values
+                    from the class objects in the operations file. Once the calculations file
+                    inherits the operations file, then the addition class is able to use the
+                    inherited clas and have its own unique values and methods.</p>
+                <img src="../static/images/abstrCalc.png" style="max-width: 100%">
+                <p></p>
+                <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/">Reference Page</a>
+                <p></p>
             </div>
         </div>
     </div>

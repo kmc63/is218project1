@@ -17,6 +17,16 @@ h1
  background-color: lightgray;
 }
 
+.col-12
+{
+    border-right: solid #d7d9db;
+    border-bottom: solid #d7d9db;
+    border-top: solid #d7d9db;
+    border-left: solid #d7d9db;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+
 .col-10
 {
     border-right: solid #d7d9db;
