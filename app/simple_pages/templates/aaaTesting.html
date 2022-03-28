@@ -1,11 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
-     <div class="container-lg">
+    <div class="container-lg">
         <div class="row" style="...">
-            <div class="col-6" style="...">
+            <div class="col-12" style="...">
                 <h1>Tutorial - AAA Testing with Python</h1>
-            </div>
-            <div class="col-6" style="...">
+                <p>Triple A testing involves arranging, acting, and asserting for the
+                    test to be conducted.</p>
+                <p>Firstly, you must arrange data for the test
+                    to be able to occur, and you do this by defining the values you
+                    want to test. Then you will act on the values you defined in the
+                    first step. The act will test the function you defined, and it is
+                    recommended that you only test one function at a time, so you know
+                    which function may not work properly. Finally, you will assert the
+                    value you got back from the act. You do this by comparing the value
+                    from the act to the value you expect to get back. If the assert fails
+                    that means something went wrong, and you will most likely need
+                    to fix your code or the testing unit.</p>
+                <img src="../static/images/aaaPic.png" style="max-width: 100%">
+                <p>My calculator proram is being tested using the AAA method. By doing this,
+                    I start by arranging the values I want to test. I arranged my data using
+                    a tuple list that contains the values 1.0 and 2. Then I have methods in
+                    the same python file which can test the add, subtract, multiply, and
+                    divide methods.</p>
+                <img src="../static/images/aaaTest1.png" style="max-width: 100%">
+                <p>We will focus on just the add method in this tutorial. Now that we have
+                    finished arranging the test we can now act on the test. We set a variable
+                    equal to the class add result which is the function are testing, and we
+                    include values from the tuple list. </p>
+                <img src="../static/images/aaaTest2.png" style="max-width: 100%">
+                <p>Finally, we will assert the value we get back from the act during the last
+                    step. When we do an assert we are checking the act to the expected values
+                    we would get. For example, we are adding the values 1 and 2 together,
+                    so we assert that the value the act should return is 3. If the assert
+                    fails there is something wrong with our code or we mis-configured
+                    our test. When you complete all of these steps the AAA test will look
+                    like this image below.</p>
+                <img src="../static/images/aaaTest3.png" style="max-width: 100%">
+                <p>AAA testing is important because it allows us to make sure our code
+                    is working properly before we upload it to a production environment.
+                    One of the benefits of AAA testing is that it is easy to implement.
+                    Also, AAA testing helps separate the program into individual parts
+                    and will allow you to focus on one part at a time.</p>
             </div>
         </div>
     </div>
