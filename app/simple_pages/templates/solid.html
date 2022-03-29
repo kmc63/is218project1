@@ -9,34 +9,73 @@
                     with developing software to make it easier maintain the project in the
                     long run.</p>
                 <h1>Single Responsibility Principle</h1>
-                <p></p>
+                <p>In single responsibility principle a class should only have one reason to
+                    change or in other words should only have one job. Also, another way
+                    to explain it is the class should only have one change that affects
+                    the value of the class. If the class is a data base type like being a
+                    class of cats or cars it will hold many objects. We would only want
+                    it to change the values when we manipulate the data in the objects.</p>
                 <h1>Open-Closed Principle</h1>
-                <p></p>
+                <p>The open-closed principle in SOLID refers to the idea of the class being
+                    open for more functions to be added but closed to modification.
+                    To clarify what open and closed means we will not allow modification
+                    of an existing class, but we will allow the adding of new functions
+                    to an existing class. The main reason we don't want to alter existing code
+                    is because we open the door to creating new bugs to what we assume is reliable
+                    code. But we can add new functions touching the existing code by using
+                    abstract classes.</p>
                 <h1>Liskov Substitution Principle</h1>
-                <p></p>
+                <p>The liskov substitution principle is the idea that child classes should
+                    have no issue being substituted for their parent class. So if class B
+                    is a child of class A we should be able to send anu object from class B
+                    into a class A method. This should not cause any issues otherwise
+                    the liskov substitution principle was not implemented properly.</p>
                 <h1>Interface Segregation Principle</h1>
-                <p></p>
+                <p>The interface segregation principle is about keeping the interfaces of a
+                    class separated. The idea behind the principle is, it becomes more
+                    beneficial to have many interfaces to manipulate a class and that
+                    having a general purpose interface is bad practice. Another thing
+                    about this principle is that a client should never be forced
+                    to use functions from a class it doesn't need. An example of this is,
+                    a class that has one interface which adds, subtracts, and multiplies
+                    with one call. This can be bad because the client may just need to
+                    use the add function but is forced to use the subtract and multiply
+                    function.</p>
                 <h1>Dependency Inversion Principle</h1>
-                <p></p>
+                <p>The dependency inversion principle states that our classes should depend
+                    upon interfaces or abstract classes instead of static classes and functions.
+                    The idea is we want all of our classes to be open to extensions, so
+                    instead of our classes depending on static classes we change our classes
+                    to become dependent on interfaces.</p>
+                <h1>Design Patterns</h1>
                 <p>Design patterns are the best practices used by
                     experienced object-oriented programmers. This practice can be solutions to
-                    a general problem that programmers may come across when developing software.</p>
+                    a general problem that programmers may come across when developing software.
+                    Also, design patterns provide a standard terminology and are specific to
+                    particular scenarios. Design patterns are simply best practices when it
+                    comes to designing software. These best practices have been created over
+                    years from experienced software developers to make software development
+                    easier for novice software developers.</p>
 
 
             </div>
             <div class="col-4" style="...">
                 <img src="../static/images/glossary3.png" style="max-width: 100%">
                 <p></p>
-                <img src="../static/images/aaaTes.png" style="max-width: 100%">
+                <img src="../static/images/solidSingle.png" style="max-width: 100%">
+                <p style="font-style: italic">This image shows single responsibility since each operation
+                    only has one job.</p>
+                <img src="../static/images/solidO.png" style="max-width: 100%">
+                <p style="font-style: italic">This image shows open-closed since the division class
+                    was added without altering the other classes in the file.</p>
                 <p></p>
-                <img src="../static/images/aaaTes.png" style="max-width: 100%">
-                <p></p>
-                <img src="../static/images/aaaTes.png" style="max-width: 100%">
-                <p></p>
-                <img src="../static/images/aaaTes.png" style="max-width: 100%">
-                <p></p>
-                <img src="../static/images/aaaTes.png" style="max-width: 100%">
-                <p></p>
+                <img src="../static/images/solidI.png" style="max-width: 100%">
+                <p style="font-style: italic">This image shows interface segregation since the operations
+                    file has multiple interfaces to work with the classes in
+                    the file.</p>
+                <img src="../static/images/solidD.png" style="max-width: 100%">
+                <p style="font-style: italic">This image shows dependency inversion since the calculator_test
+                    file uses the interfaces of operations to get its values.</p>
             </div>
         </div>
     </div>
